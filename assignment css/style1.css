@@ -1,0 +1,52 @@
+
+body {
+    background-color: #e7d9c9; 
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 25px;
+}
+
+ 
+h1 {
+    text-align: center;
+    color: #806b92; 
+    margin-bottom: 20px;
+    background-color: #ffe4f2;
+    width: 500px;
+    margin: 50px auto; 
+    padding: 30px;
+    border-radius: 12px;
+}
+
+
+.hii label{
+    font-weight: bold;
+    display: block;
+    color: rgb(87, 84, 86);
+    font-size: 20px;
+}
+
+
+.hii input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #b197fc;
+}
+
+
+#submit {
+    background-color: #b197fc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #9775fa;
+}

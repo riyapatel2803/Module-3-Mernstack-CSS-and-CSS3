@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Grid</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .grid {
+      display: grid;
+      padding: 87px;
+      grid-gap: 15px;
+      grid-template-columns: repeat(3, 1fr);
+      width: 960px;
+      margin: 0 auto;
+      justify-items: center;
+    }
+
+    .productcard {
+      height: 250px;
+      width: 250px;
+      padding: 40px;
+      background-color: rgb(197, 198, 211);
+      border: 2px hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .productcard:hover {
+      border: 2px solid gray;
+    }
+
+    .productimage {
+      height: 150px;
+      width: 150px;
+      cursor: pointer;
+    }
+
+    .producttitle {
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(74, 46, 46);
+    }
+
+    .productprice {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/81Tp-mpPl-L._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="SKYBAGS" />
+      <div class="productinfo">
+        <h4 class="producttitle">SKYBAGS</h4>
+        <p class="productprice">₹1,840</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/712oioyambL._SY741_.jpg" class="productimage" alt="Beauty girls by hotshot" />
+      <div class="productinfo">
+        <h4 class="producttitle">Beauty girls </h4>
+        <p class="productprice">₹499</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/51Fkm6tYENL._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="Palay" />
+      <div class="productinfo">
+        <h4 class="producttitle">Palay</h4>
+        <p class="productprice">₹1581</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/61F3x1c185L._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="Tinytot" />
+      <div class="productinfo">
+        <h4 class="producttitle">Tinytot</h4>
+        <p class="productprice">₹957</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/41atfvd58iL._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="EZ Living" />
+      <div class="productinfo">
+        <h4 class="producttitle">EZ Living</h4>
+        <p class="productprice">₹759</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/81l4qAaRK+L._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="Beauty girls" />
+      <div class="productinfo">
+        <h4 class="producttitle">Beauty girls</h4>
+        <p class="productprice">₹699</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/61zBmrRaXsL._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="Banqlyn" />
+      <div class="productinfo">
+        <h4 class="producttitle">Banqlyn</h4>
+        <p class="productprice">₹699</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/61zcr3r10nL._AC_UL480_FMwebp_QL65_.jpg" class="productimage" alt="hyder" />
+      <div class="productinfo">
+        <h4 class="producttitle">hyder</h4>
+        <p class="productprice">₹678</p>
+      </div>
+    </div>
+
+    <div class="productcard">
+      <img src="https://m.media-amazon.com/images/I/71yeEBa76CL._SX679_.jpg" class="productimage" alt="Skybags Charm" />
+      <div class="productinfo">
+        <h4 class="producttitle">Skybags Charm</h4>
+        <p class="productprice">₹1840</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my Webpage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #a2d2ff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      color: #2b2d42;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin-left: 1rem;
+      background-color: #ffc8dd;
+      color: #6a040f;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #bde0fe;
+    }
+
+    .main-section {
+      display: flex;
+      gap: 3rem;
+      padding: 3rem 5%;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      flex: 1;
+      min-width: 250px;
+      background-color: #fefae0;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .box h3 {
+      color: #5f0f40;
+      margin-bottom: 1rem;
+    }
+
+    .box p {
+      color: #333;
+    }
+
+    footer {
+      background-color: #cdb4db;
+      color: #2d2d2d;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My webSite</h1>
+    <nav>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+    </nav>
+  </header>
+
+  <section class="main-section">
+    <div class="box">
+      <h3>Welcome!</h3>
+      <p>This is my custom website created using HTML and CSS in a pastel theme.</p>
+    </div>
+    <div class="box">
+      <h3>Greetings!</h3>
+      <p>I designed this layout for learning and practicing frontend development.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p> 2025 My  Website</p>
+  </footer>
+</body>
+</html>
